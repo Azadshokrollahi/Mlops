@@ -16,6 +16,5 @@ jobs:
         run: python -m pytest -q
       - name: Reproduce DVC pipeline
         run: |
-          dvc init --no-scm
           dvc repro
           dvc metrics show
