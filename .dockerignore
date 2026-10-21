@@ -1,0 +1,12 @@
+.git
+.dvc
+.github
+.venv
+__pycache__
+.pytest_cache
+mlruns
+data
+tests
+metrics
+dags
+*.pyc

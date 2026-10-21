@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    image: people-counting-api:v1
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
